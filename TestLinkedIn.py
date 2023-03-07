@@ -1,5 +1,6 @@
 def func(x):
 
+<<<<<<< HEAD
     if(x==0 or x==1):
 
         return 1
@@ -16,3 +17,20 @@ func(6) #ça maaarche paaaas
 
 # r = 'C'
 # print(int(r, 16))
+=======
+g = {3, 4, 5}
+h = {5, 2, 3}
+print(h - g)
+
+i = {3, 4}
+j = {5, 2}
+print(j - i)
+
+m = {4, 5, 4}
+n = {2, 3, 5}
+print(n - m)
+
+p = {3, 4, 5, 4}
+q = {5, 2, 3, 5}
+print(q - p)
+>>>>>>> f14a31d (Essai Python que je ne cromprends rien)
