@@ -6,7 +6,7 @@ def func(x):
 
     return func(x-1)*x
 
-func(1)
+func(6) #ça maaarche paaaas
 # print("Hellow")
 
 # # Intéressante façon de traiter cette liste
