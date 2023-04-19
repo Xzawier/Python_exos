@@ -1,22 +1,32 @@
-#12.03.2023
+#19.04.2023
+lst = [[1, 2, 3], [4, 5], [6, 7, 8, 9]]
+temp = [num for sublist in lst for num in sublist]
+print(temp)
 
-list1 = [3 , 2 , 5 , 6 , 0 , 7, 9]
-sum = 0
-sum1 = 0
-for elem in list1:
-    if (elem % 2 == 0):
-        sum = sum + elem
-        continue
-    if (elem % 3 == 0):
-        sum1 = sum1 + elem
 
-print(sum , end=" ")
-print(sum1)
-# L'astuce est 2 et 3 divisent 6
-if (6 % 3 == 0):
-    print("OK")
-else:
-    print("Not OK")
+
+
+
+
+# #12.03.2023
+
+# list1 = [3 , 2 , 5 , 6 , 0 , 7, 9]
+# sum = 0
+# sum1 = 0
+# for elem in list1:
+#     if (elem % 2 == 0):
+#         sum = sum + elem
+#         continue
+#     if (elem % 3 == 0):
+#         sum1 = sum1 + elem
+
+# print(sum , end=" ")
+# print(sum1)
+# # L'astuce est 2 et 3 divisent 6
+# if (6 % 3 == 0):
+#     print("OK")
+# else:
+#     print("Not OK")
 
 # 10.03.20223
 # for i in range(1,8,3):
